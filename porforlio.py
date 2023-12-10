@@ -15,7 +15,7 @@ def main():
     st.markdown("[capstone](https://github.com/LuciaZou/capstone)",unsafe_allow_html=True)
     st.markdown('Used machine learning models to forecast future profits of liquor stores in Iowa')
     # Add images, links, code snippets as needed
-    st.image('d60309127f7dd4dd05ec3e21e4b5673c.jpg', width=250)
+    st.image('d60309127f7dd4dd05ec3e21e4b5673c.jpg', width=200)
 
 st.sidebar.title("Contact Me")
 
@@ -23,7 +23,7 @@ st.sidebar.title("Contact Me")
 # Add LinkedIn link
 st.sidebar.markdown("[LinkedIn](https://www.linkedin.com/in/luciazouyue)", unsafe_allow_html=True)
 qr_code_image = 'image_6483441.JPG'
-st.sidebar.image(qr_code_image, caption='Scan the QR Code')
+st.sidebar.image(qr_code_image, caption='Scan the QR Code', width=200)
 
 # Add Github link
 st.sidebar.markdown("[Github](https://github.com/LuciaZou/capstone)", unsafe_allow_html=True)
